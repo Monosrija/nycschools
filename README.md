@@ -1,10 +1,12 @@
 # NYCSchools
 
 Steps to run this project
+-------------------
 1. git clone git@github.com:Monosrija/nycschools.git
 2. Run the app
 
 Key points in this project
+-------------------
 1. I have implemented this app using Kotlin and MVVM architecture. The project has 2 main parts 
   domain - This package has the data classes, networkserviceInterface and the usecase to handle the network calls.
   ui - UI has the single activity and multiple fragment structure. It contains the list and the details screen.
@@ -21,10 +23,17 @@ Key points in this project
 
 
 Future scope
+-------------------
 1. Caching of data in offline mode is not handled.
 2. Implement search feature in the list screen
 3. Display more data in the details screen
 
+References
+-------------------
+https://developer.android.com/
+Google codelabs
+stackoverflow.com
+In addition to this, I have browsed though multiple blogs avaialable in the android community
 
 SCREENSHOTS of the app in light mode
 
