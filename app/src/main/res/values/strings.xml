@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NycSchools</string>
+    <string name="list_title">List of NYC Schools</string>
+    <string name="details_title">School Details</string>
+    <string name="website">Website</string>
+    <string name="email">Email </string>
+    <string name="data_unavailable">Data Unavailable</string>
+    <string name="avg_reading_score">Average reading score : </string>
+    <string name="avg_writing_score">Average writing score : </string>
+    <string name="avg_maths_score">Average maths score : </string>
+    <string name="total_test_takers">Total test takers : </string>
+</resources>

@@ -1,0 +1,107 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="schoolInfo"
+            type="com.example.nycschools.domain.data.SchoolInfo" />
+
+
+        <variable
+            name="viewModel"
+            type="com.example.nycschools.ui.schooldetails.SchoolDetailsViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/status_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="112dp"
+            android:background="@color/cardview_dark_background"
+            app:nycSchoolsApiStatus="@{viewModel.status}" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:nycSchoolsApiStatus="@{viewModel.status}">
+
+            <TextView
+                android:id="@+id/school_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="32dp"
+                android:text="@{schoolInfo.schoolName ?? @string/data_unavailable}"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                tools:text="NYC HIGH SCHOOL" />
+
+            <TextView
+                android:id="@+id/school_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:text="@{schoolInfo.website ?? @string/data_unavailable}"
+                android:autoLink="web"
+                android:linksClickable="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0" />
+
+            <include
+                layout="@layout/school_details_item"
+                app:title="@{@string/total_test_takers}"
+                app:value="@{viewModel.details.numTestTakers ?? @string/data_unavailable}" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0" />
+
+            <include
+                layout="@layout/school_details_item"
+                app:title="@{@string/avg_maths_score}"
+                app:value="@{viewModel.details.mathScore ?? @string/data_unavailable}" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0" />
+
+            <include
+                layout="@layout/school_details_item"
+                app:title="@{@string/avg_reading_score}"
+                app:value="@{viewModel.details.readingScore ?? @string/data_unavailable}" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0" />
+
+            <include
+                layout="@layout/school_details_item"
+                app:title="@{@string/avg_writing_score}"
+                app:value="@{viewModel.details.writingScore ?? @string/data_unavailable}" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>
