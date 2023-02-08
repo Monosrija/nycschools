@@ -52,7 +52,7 @@ When SAT scores are not available
 Video of the app
 --------------------
 
-![nyc-schools](https://user-images.githubusercontent.com/14352106/217471867-ed8bff03-7333-4a2d-b1a2-f399f9a51945.gif)
+![nyc-schools](https://user-images.githubusercontent.com/14352106/217472309-4fa69ea9-5616-4e32-a0c5-755a58751104.gif)
 
 
 
