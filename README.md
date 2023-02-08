@@ -1,5 +1,9 @@
 # NYCSchools
 
+Steps to run this project
+1. git clone git@github.com:Monosrija/nycschools.git
+2. Run the app
+
 Key points in this project
 1. I have implemented this app using Kotlin and MVVM architecture. The project has 2 main parts 
   domain - This package has the data classes, networkserviceInterface and the usecase to handle the network calls.
@@ -25,14 +29,14 @@ SCREENSHOTS of the app in light mode
 
 ![Screenshot_1675837143](https://user-images.githubusercontent.com/14352106/217450608-030f74c9-10c7-4985-a61a-97f51f8bda11.png)
 
-![Screenshot_1675837147](https://user-images.githubusercontent.com/14352106/217450624-f2410ca3-46c6-48ef-8c08-b1db709816ab.png)
+![Screenshot_1675841510](https://user-images.githubusercontent.com/14352106/217469757-0b70646d-18a2-4c41-9d63-b849c334ee36.png)
 
 
 DARK THEME screenshots
 
 ![Screenshot_1675836984](https://user-images.githubusercontent.com/14352106/217450649-0d66bd40-9ed5-4e41-9dce-6384058a8539.png)
 
-![Screenshot_1675836989](https://user-images.githubusercontent.com/14352106/217450680-2c8c8647-1173-44c7-982f-b65703a7dfb4.png)
+![Screenshot_1675841571](https://user-images.githubusercontent.com/14352106/217469805-33cd878a-bb38-40c7-aabe-123fa99224e6.png)
 
 Error screens
 ![Screenshot_1675837163](https://user-images.githubusercontent.com/14352106/217455986-b9375d15-729a-4fff-98e7-fed7810103c2.png)
@@ -41,11 +45,8 @@ Loading sreen
 ![Screenshot_1675837178](https://user-images.githubusercontent.com/14352106/217456185-8ec00153-bd46-456b-9858-66d757d684cd.png)
 
 When SAT scores are not available
-![Screenshot_1675839289](https://user-images.githubusercontent.com/14352106/217456389-b94ceb2d-4897-4462-8647-3dbea843b29e.png)
 
 
-
-![nyc-schools](https://user-images.githubusercontent.com/14352106/217455193-eb98eaad-4f64-40ee-8d6c-3e89ae0eec05.gif)
 
 
 
