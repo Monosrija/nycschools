@@ -8,8 +8,8 @@ Key points in this project
 1. I have implemented this app using Kotlin and MVVM architecture. The project has 2 main parts 
   domain - This package has the data classes, networkserviceInterface and the usecase to handle the network calls.
   ui - UI has the single activity and multiple fragment structure. It contains the list and the details screen.
-2. App navigation is handled using nav_graph
-3. Used Hilt to acheive dependency injection
+2. App navigation is handled using Jetpack Navigation components.
+3. Iplemented Hilt for dependency injection
 4. Used retrofit for network service.
 5. Implemented unit tests.
 6. Implemented LiveData, kotlin coroutines and databinding.
