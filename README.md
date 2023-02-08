@@ -13,6 +13,7 @@ Key points in this project
 8. App handles network errors and also when data is unavailable for a particular school
 9. App supports dark theme.
 10. App has custom toolbar with back button for easier navigation.
+11. List screen displays data in alphabetically sorted order of school names
 
 
 Future scope
@@ -33,6 +34,18 @@ DARK THEME screenshots
 
 ![Screenshot_1675836989](https://user-images.githubusercontent.com/14352106/217450680-2c8c8647-1173-44c7-982f-b65703a7dfb4.png)
 
+Error screens
+![Screenshot_1675837163](https://user-images.githubusercontent.com/14352106/217455986-b9375d15-729a-4fff-98e7-fed7810103c2.png)
+
+Loading sreen
+![Screenshot_1675837178](https://user-images.githubusercontent.com/14352106/217456185-8ec00153-bd46-456b-9858-66d757d684cd.png)
+
+When SAT scores are not available
+![Screenshot_1675839289](https://user-images.githubusercontent.com/14352106/217456389-b94ceb2d-4897-4462-8647-3dbea843b29e.png)
+
+
+
 ![nyc-schools](https://user-images.githubusercontent.com/14352106/217455193-eb98eaad-4f64-40ee-8d6c-3e89ae0eec05.gif)
+
 
 
