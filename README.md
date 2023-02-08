@@ -22,7 +22,8 @@ Key points in this project
 
 Future scope
 1. Caching of data in offline mode is not handled.
-2. Support webview loading when tapped on the website info in details screen.
+2. Implement search feature in the list screen
+3. Display more data in the details screen
 
 
 SCREENSHOTS of the app in light mode
@@ -46,6 +47,12 @@ Loading sreen
 
 When SAT scores are not available
 
+![Screenshot_1675843393](https://user-images.githubusercontent.com/14352106/217470458-e3c1b923-67cc-4edf-af3c-d1d850db724e.png)
+
+Video of the app
+--------------------
+
+![nycSchools](https://user-images.githubusercontent.com/14352106/217470664-fd6b1daa-79f7-4a17-beeb-de25b79d05dc.gif)
 
 
 
