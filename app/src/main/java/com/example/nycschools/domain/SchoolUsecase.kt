@@ -1,6 +1,5 @@
 package com.example.nycschools.domain
 
-import com.example.nycschools.domain.network.NycSchoolsApiService
 import com.example.nycschools.domain.data.SatDetails
 import com.example.nycschools.domain.data.SchoolInfo
 import javax.inject.Inject

@@ -10,7 +10,7 @@
         android:name="com.example.nycschools.ui.schoollist.SchoolListFragment">
         <argument
             android:name="schoolId"
-            app:argType="com.example.nycschools.network.SchoolInfo" />
+            app:argType="com.example.nycschools.domain.data.SchoolInfo" />
 
         <action
             android:id="@+id/action_schoolList_to_schoolDetails"

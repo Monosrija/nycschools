@@ -3,7 +3,7 @@ package com.example.nycschools.network.domain
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.example.nycschools.MainCoroutineRule
 import com.example.nycschools.domain.SchoolUsecase
-import com.example.nycschools.domain.network.NycSchoolsApiService
+import com.example.nycschools.domain.NycSchoolsApiService
 import com.example.nycschools.domain.data.SatDetails
 import com.example.nycschools.domain.data.SchoolInfo
 import com.nhaarman.mockitokotlin2.times

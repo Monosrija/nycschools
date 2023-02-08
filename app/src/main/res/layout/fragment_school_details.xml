@@ -42,18 +42,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:padding="32dp"
+                android:paddingTop="32dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="8dp"
                 android:text="@{schoolInfo.schoolName ?? @string/data_unavailable}"
                 android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
                 tools:text="NYC HIGH SCHOOL" />
 
             <TextView
-                android:id="@+id/school_website"
+                android:id="@+id/school_neighborhood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
-                android:text="@{schoolInfo.website ?? @string/data_unavailable}"
+                android:text="@{schoolInfo.neighborhood ?? @string/data_unavailable}"
                 android:autoLink="web"
                 android:linksClickable="true" />
 

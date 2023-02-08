@@ -1,4 +1,4 @@
-package com.example.nycschools.domain.network
+package com.example.nycschools.domain
 
 import com.example.nycschools.domain.data.SatDetails
 import com.example.nycschools.domain.data.SchoolInfo

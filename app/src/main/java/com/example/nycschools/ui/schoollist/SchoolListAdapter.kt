@@ -30,7 +30,6 @@ class SchoolListAdapter(private val onClickListener: OnClickListener) :
         override fun areItemsTheSame(oldItem: SchoolInfo, newItem: SchoolInfo): Boolean {
             return oldItem.schoolId == newItem.schoolId
         }
-
         override fun areContentsTheSame(oldItem: SchoolInfo, newItem: SchoolInfo): Boolean {
             return oldItem.schoolName == newItem.schoolName
         }

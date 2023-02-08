@@ -8,5 +8,5 @@ import kotlinx.parcelize.Parcelize
 data class SchoolInfo(
     @SerializedName("dbn") val schoolId: String,
     @SerializedName("school_name") val schoolName: String,
-    @SerializedName("website") val website: String? = null
+    @SerializedName("neighborhood") val neighborhood: String? = null
 ) : Parcelable
