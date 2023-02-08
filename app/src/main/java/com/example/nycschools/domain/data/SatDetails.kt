@@ -1,7 +1,6 @@
 package com.example.nycschools.domain.data
 
 import com.google.gson.annotations.SerializedName
-
 data class SatDetails(
     @SerializedName("dbn") val schoolId: String,
     @SerializedName("school_name") val schoolName: String? = null,
